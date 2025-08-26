@@ -60,7 +60,7 @@ async function loadPokemon() {
         // TODO 1.3: Crear un bucle for que vaya del 1 al 5
         // Dentro del bucle, añade al array las promesas de fetchPokemonData(i)
         // PISTA: usa nombreArray.push(fetchPokemonData(i))
-        for (let i = 1; i <= 1000; i++) {
+        for (let i = 1; i <= 5; i++) {
             pokemonPromises.push(fetchPokemonData(i));
         }
         
