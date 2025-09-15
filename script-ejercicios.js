@@ -124,6 +124,7 @@ async function fetchPokemonData(pokemonId) {
         
         /* ESCRIBE TU CÓDIGO AQUÍ */
         
+        
         // TODO 2.2: Verificar si la respuesta es exitosa
         if (!response.ok) { throw new Error(`Error HTTP: ${response.status}`); }
         
